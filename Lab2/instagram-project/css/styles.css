@@ -1,0 +1,172 @@
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+      .global {
+         display: flex;
+         height: 100%;
+         font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+         color: black;
+         flex-direction: column;
+      }
+
+      .img-fluid {
+         width: 174px;
+         height: auto;
+         margin-top: 36px;
+         margin-bottom: 12px;
+      }
+
+      .column {
+         width: 350px;
+         height: fit-content;
+         text-align: center;
+         box-sizing: border-box;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+         width: 80%;
+         padding: 9px 0px 7px 8px;
+         margin: 8px 0;
+         display: inline-block;
+         border: 1px solid #ccc;
+         box-sizing: border-box;
+         font-size: 12px;
+      }
+
+      input[type="submit"] {
+         width: 80%;
+         background-color: #3897f0;
+         color: white;
+         padding: 8px 20px;
+         margin: 8px 0;
+         border: none;
+         cursor: pointer;
+         font-size: 16px;
+         cursor: pointer;
+         border-radius: 8px;
+      }
+
+      .or {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 10px;
+         color: #737373;
+      }
+
+      .or-line {
+         width: 35%;
+         height: 1px;
+         background-color: #DBDBDB;
+      }
+
+      #facebook_login {
+         margin: 40px auto;
+         color: #385185;
+         text-decoration: none;
+         font-size: 14px;
+         font-weight: bold;
+      }
+
+      #forgot_password {
+         padding-bottom: 10px;
+         color: #00376B;
+         text-decoration: none;
+         font-size: 12px;
+      }
+
+      .links-group {
+         margin-bottom: 10px;
+         text-align: center;
+      }
+
+      .block {
+         align-items: center;
+         background-color: rgb(255, 255, 255);
+         border: 1px solid rgb(219, 219, 219);
+         border-radius: 1px;
+         box-sizing: border-box;
+         display: flex;
+         flex-direction: column;
+         flex-shrink: 0;
+         font: inherit;
+         font-size: 100%;
+         margin: 0 0 10px;
+         padding: 10px 0;
+         vertical-align: baseline;
+         font-size: 14px;
+      }
+
+      form {
+         width: 100%;
+      }
+
+      #phones {
+         width: 454px;
+      }
+
+      .items {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         margin-top: 32px;
+      }
+
+      footer {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         text-decoration: none;
+         color: #737373;
+         font-size: 12px;
+         margin: 24px;
+      }
+
+      #options {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         align-items: center;
+         list-style-type: none;
+         padding: 0;
+      }
+
+      li a {
+         margin: 0 8px 12px 8px;
+         text-decoration: none;
+      }
+
+      li a:hover {
+         cursor: pointer;
+      }
+
+      li a:visited {
+         color: #737373;
+      }
+
+      #screenshot1 {
+         width: 244px;
+         position: absolute;
+         margin-left: -255px;
+         margin-top: -40px;
+      }
+
+      .install-app {
+         font-size: 14px;
+         margin: 15px;
+      }
+
+      .meta-block {
+         display: flex;
+         flex-direction: row;
+         margin: 15px;
+      }
