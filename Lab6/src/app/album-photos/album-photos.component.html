@@ -1,0 +1,23 @@
+
+<div class="header">
+    <div class="header1">
+        <img src="/assets/pictures/picture1.jpg" alt="Your Image Alt Text" width="1380px" height="400px">
+        <h1 class="photos">PHOTOS</h1>
+        <h2 class="word">From colorful landscapes and portraits to technological innovations and abstract compositions, we have albums for all your interests and preferences.</h2>
+        <h1 class="word2">Photos</h1>
+
+        <h2>Photos</h2>
+        <ul>
+            <li *ngFor="let photo of photos">
+                <a href="{{photo.url}}" target="_blank">{{photo.id}} {{photo.title}} </a>
+            </li>
+        </ul>
+        
+        <button class="backk" (click)="goBack()">Return back</button>
+        
+
+    </div>
+
+</div>
+
+

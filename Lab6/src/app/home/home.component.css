@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+}
+
+/* .header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    background-color: #fff;
+    border-bottom: 1px solid #d9dcde;
+} */
+.header1{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    color: white;
+
+}
+.photos{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: center;
+    padding: 10%;
+    color: rgb(223, 221, 221);  
+}
+.word{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: center;
+    padding: 15%;
+    color: rgb(233, 231, 231);
+}
+.word2{
+    font-family: "italic", "Helvetica Neue", Helvetica, sans-serif;
+    z-index: 3;
+    color: black;
+    text-align: center;
+}

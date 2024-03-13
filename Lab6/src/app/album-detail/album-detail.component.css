@@ -1,0 +1,107 @@
+.header1{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    color: white;
+
+}
+.photos{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: center;
+    padding: 10%;
+    color: rgb(237, 241, 238);  
+}
+.word{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: center;
+    padding: 15%;
+    color: rgb(218, 213, 213);
+}
+.word2{
+    font-family: "italic", "Helvetica Neue", Helvetica, sans-serif;
+    z-index: 3;
+    color: black;
+    text-align: center;
+}
+/* Стили для блока "Album Detail" */
+/* Стили для заголовка альбома */
+.album-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  /* Стили для блока обновления альбома */
+  /* Стили для кнопки "Save" в блоке обновления альбома */
+
+.update{
+    width: 300px;
+    margin: 40px 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.update input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0; /* Убираем скругление углов */
+    box-shadow: none; /* Убираем тень */
+}
+.update button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0; /* Убираем скругление углов */
+    box-shadow: none; /* Убираем тень */
+    cursor: pointer;
+  }
+  
+  .update button:hover {
+    background-color: #009c00; /* Измененный цвет фона при наведении */
+  }
+  
+  /* Стили для кнопки "Return back" */
+  .backk {
+    background-color: #d9534f; /* Цвет фона кнопки "Return back" */
+    color: #fff; /* Цвет текста */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  .backk:hover {
+    background-color: #c9302c; /* Измененный цвет фона при наведении */
+  }
+  
+  .link {
+    display: block;
+    text-decoration: none;
+    color: #5cb85c;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: 20px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+
+
+  

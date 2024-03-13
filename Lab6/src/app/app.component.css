@@ -1,0 +1,31 @@
+ul.links {
+    z-index: 2;
+    list-style-type: none; 
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    margin: 0; 
+    display: flex; 
+    position: relative;
+
+  }
+  
+  ul.links li {
+    margin-right: 10px; 
+  }
+  
+  ul.links li a {
+    text-decoration: none; 
+    color: #f3efef; 
+    font-weight: bold; 
+    font-size: 16px; 
+    padding: 8px 12px; 
+    border: 1px solid #333; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  ul.links li a:hover {
+    background-color: #e0dfdf; 
+    color: #fff; 
+  }
+  

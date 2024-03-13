@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+
+/* .header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    background-color: #fff;
+    border-bottom: 1px solid #d9dcde;
+} */
+.header1{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    color: white;
+
+}
+.photos{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: right;
+    padding: 5%;
+    color: rgb(223, 221, 221);  
+}
+.word{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: right;
+    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 70%;
+    color: rgb(233, 231, 231);
+}
+.word2{
+    font-family: "italic", "Helvetica Neue", Helvetica, sans-serif;
+    z-index: 3;
+    color: black;
+    text-align: center;
+}
+.about{
+    
+    position: relative;
+    background-color: #f0f1ff;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    display: block;
+}
+.about1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 5rem 5rem 5rem 5rem;
+    align-items: center;
+}
+.picture{
+    width: 280px;
+    height: auto;
+    aspect-ratio: 560 / 416;
+    max-width: 560px;
+}
+.goal{
+    width: 100%;
+    display: block;
+    font-weight: var(--_1olid3u20, 600);
+    font-family: var(--font-alternate);
+}
+.maingoal{
+    font-size: 44px;
+    letter-spacing: -.64px;
+}
+.help{
+    font-size: 16px;
+}

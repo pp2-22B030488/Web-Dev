@@ -1,0 +1,110 @@
+.header1{
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    color: white;
+
+}
+.photos{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: center;
+    padding: 10%;
+    color: rgb(223, 221, 221);  
+}
+.word{
+    z-index: 2;
+    position: absolute;
+    inset: 0px;
+    text-align: center;
+    padding: 15%;
+    color: rgb(233, 231, 231);
+}
+.word2{
+    font-family: "italic", "Helvetica Neue", Helvetica, sans-serif;
+    z-index: 3;
+    color: black;
+    text-align: center;
+}
+
+.add {
+    width: 300px;
+    margin: 40px 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .add input,
+  .add textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 0; /* Убираем скругление углов */
+    box-shadow: none; /* Убираем тень */
+  }
+  
+  .add button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0; /* Убираем скругление углов */
+    box-shadow: none; /* Убираем тень */
+    cursor: pointer;
+  }
+  
+  .add button:hover {
+    background-color: #45a049;
+  }
+
+
+  /* Стили для списка альбомов */
+ul {
+    list-style-type: none;
+    padding-left: 40px;
+  }
+  
+  li {
+    display:block;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  a:hover {
+    background-color: #d6d4d4; /* Измененный цвет фона при наведении */
+  }
+  
+  /* Стили для кнопок удаления */
+  button {
+    text-align: right;
+    background-color: #d9534f; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста */
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c9302c; /* Измененный цвет фона при наведении */
+  }
+  
+  

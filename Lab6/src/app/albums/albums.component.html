@@ -1,0 +1,30 @@
+<div class="header">
+    <div class="header1">
+        <img src="/assets/pictures/photo.jpg" alt="Your Image Alt Text" width="1380px" height="600px">
+        <h1 class="photos">PHOTOS</h1>
+        <h2 class="word">Welcome to Photos's Album, your unique source for high-quality albums! On our website we offer you an endless variety of visual impressions in a convenient and colorful format.</h2>
+        <h1 class="word2">Our Albums</h1>
+        
+        <fieldset class="add">
+            <!-- <label for="title">Title:</label> -->
+            <input type="text" [(ngModel)]="newAlbum.title" id="title" placeholder="Title:"><br/>
+            <!-- <label for="info">Info:</label> -->
+            <textarea [(ngModel)]="newAlbum.info" id="info" placeholder="Information:"></textarea><br/>
+            <button (click)="addAlbum()">Add album</button>
+        </fieldset>
+       
+        <ul *ngIf="loaded; else loading">
+            <li *ngFor="let album of albums">
+                <a [routerLink] = "['/albums', album.id]"> {{album.id}} {{album.title}}</a>
+                <button (click)="deleteAlbum(album.id)"> x </button>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+
+
+<ng-template #loading>
+    <p>Albums are loading...</p>
+</ng-template>

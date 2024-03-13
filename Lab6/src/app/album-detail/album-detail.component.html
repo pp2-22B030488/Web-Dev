@@ -1,0 +1,26 @@
+
+<div class="header">
+    <div class="header1">
+        <img src="/assets/pictures/detail.jpg" alt="Your Image Alt Text" width="1380px" height="460px">
+        <h1 class="photos">PHOTOS</h1>
+        <h3 class="word">High-quality photos, videos, vectors, PSD, AI images, icons...to take you from ideas to great projects</h3>
+        <h1 class="word2">Album Detail #{{albums.id}}</h1>
+        
+        <h2 class="album-title">{{albums.title}}</h2>
+        <fieldset class="update">
+            <label for="title">Title:</label>
+            <input type="text" [(ngModel)]="newTitle" id="title"><br/>
+            <button (click)="updateAlbum()">Save</button>
+        </fieldset> 
+        
+        <a class="link" [routerLink] = "['photos']">Photos</a>
+    
+        
+        <button class="backk" (click)="goBack()">Return back</button>
+    </div>
+
+</div>
+
+
+<!-- <p *ngIf="!loaded">Post detail page is loading...</p> -->
+<!-- <p *ngIf="!loaded">Post detail page is loading...</p> -->
